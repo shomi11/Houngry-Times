@@ -1,0 +1,515 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C076CE7E24573E9700288294 /* MapPin.swift in Sources */ = {isa = PBXBuildFile; fileRef = C076CE7D24573E9700288294 /* MapPin.swift */; };
+		C076CE802458246E00288294 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C076CE7F2458246E00288294 /* InfoViewController.swift */; };
+		C076CE862458D42200288294 /* ProposalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C076CE852458D42200288294 /* ProposalViewController.swift */; };
+		C076CE8824597B1400288294 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = C076CE8724597B1400288294 /* Restaurant.swift */; };
+		C076CE8A24598D2900288294 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C076CE8924598D2900288294 /* MapViewController.swift */; };
+		C076CE8D2459D53300288294 /* StringExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = C076CE8C2459D53300288294 /* StringExt.swift */; };
+		C076CE8F2459D55000288294 /* DateExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = C076CE8E2459D55000288294 /* DateExt.swift */; };
+		C076CE94245A088900288294 /* ContrtollerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = C076CE93245A088900288294 /* ContrtollerExt.swift */; };
+		C0D54D5E2457227F00760637 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0D54D5D2457227F00760637 /* Assets.xcassets */; };
+		C0D54D652457227F00760637 /* Houngry Times MessagesExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C0D54D642457227F00760637 /* Houngry Times MessagesExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C0D54D6A2457227F00760637 /* Messages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0D54D692457227F00760637 /* Messages.framework */; };
+		C0D54D6D2457227F00760637 /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D54D6C2457227F00760637 /* MessagesViewController.swift */; };
+		C0D54D702457227F00760637 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0D54D6E2457227F00760637 /* MainInterface.storyboard */; };
+		C0D54D722457227F00760637 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0D54D712457227F00760637 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C0D54D662457227F00760637 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0D54D542457227D00760637 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0D54D632457227F00760637;
+			remoteInfo = "Houngry Times MessagesExtension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C0D54D792457227F00760637 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C0D54D652457227F00760637 /* Houngry Times MessagesExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C076CE7D24573E9700288294 /* MapPin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapPin.swift; sourceTree = "<group>"; };
+		C076CE7F2458246E00288294 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		C076CE852458D42200288294 /* ProposalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProposalViewController.swift; sourceTree = "<group>"; };
+		C076CE8724597B1400288294 /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
+		C076CE8924598D2900288294 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		C076CE8C2459D53300288294 /* StringExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExt.swift; sourceTree = "<group>"; };
+		C076CE8E2459D55000288294 /* DateExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExt.swift; sourceTree = "<group>"; };
+		C076CE93245A088900288294 /* ContrtollerExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContrtollerExt.swift; sourceTree = "<group>"; };
+		C0D54D5A2457227D00760637 /* Houngry Times.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Houngry Times.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0D54D5D2457227F00760637 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C0D54D5F2457227F00760637 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0D54D642457227F00760637 /* Houngry Times MessagesExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Houngry Times MessagesExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0D54D692457227F00760637 /* Messages.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Messages.framework; path = System/Library/Frameworks/Messages.framework; sourceTree = SDKROOT; };
+		C0D54D6C2457227F00760637 /* MessagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
+		C0D54D6F2457227F00760637 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		C0D54D712457227F00760637 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C0D54D732457227F00760637 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C0D54D612457227F00760637 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0D54D6A2457227F00760637 /* Messages.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C076CE8B2459D52300288294 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C076CE8C2459D53300288294 /* StringExt.swift */,
+				C076CE8E2459D55000288294 /* DateExt.swift */,
+				C076CE93245A088900288294 /* ContrtollerExt.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		C076CE912459D87700288294 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C076CE8724597B1400288294 /* Restaurant.swift */,
+				C076CE7D24573E9700288294 /* MapPin.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C076CE922459D88400288294 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C0D54D6C2457227F00760637 /* MessagesViewController.swift */,
+				C076CE8924598D2900288294 /* MapViewController.swift */,
+				C076CE7F2458246E00288294 /* InfoViewController.swift */,
+				C076CE852458D42200288294 /* ProposalViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		C0D54D532457227D00760637 = {
+			isa = PBXGroup;
+			children = (
+				C0D54D5C2457227D00760637 /* Houngry Times */,
+				C0D54D6B2457227F00760637 /* Houngry Times MessagesExtension */,
+				C0D54D682457227F00760637 /* Frameworks */,
+				C0D54D5B2457227D00760637 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C0D54D5B2457227D00760637 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C0D54D5A2457227D00760637 /* Houngry Times.app */,
+				C0D54D642457227F00760637 /* Houngry Times MessagesExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0D54D5C2457227D00760637 /* Houngry Times */ = {
+			isa = PBXGroup;
+			children = (
+				C0D54D5D2457227F00760637 /* Assets.xcassets */,
+				C0D54D5F2457227F00760637 /* Info.plist */,
+			);
+			path = "Houngry Times";
+			sourceTree = "<group>";
+		};
+		C0D54D682457227F00760637 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0D54D692457227F00760637 /* Messages.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C0D54D6B2457227F00760637 /* Houngry Times MessagesExtension */ = {
+			isa = PBXGroup;
+			children = (
+				C076CE922459D88400288294 /* ViewController */,
+				C076CE912459D87700288294 /* Model */,
+				C076CE8B2459D52300288294 /* Extension */,
+				C0D54D6E2457227F00760637 /* MainInterface.storyboard */,
+				C0D54D712457227F00760637 /* Assets.xcassets */,
+				C0D54D732457227F00760637 /* Info.plist */,
+			);
+			path = "Houngry Times MessagesExtension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C0D54D592457227D00760637 /* Houngry Times */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0D54D7A2457227F00760637 /* Build configuration list for PBXNativeTarget "Houngry Times" */;
+			buildPhases = (
+				C0D54D582457227D00760637 /* Resources */,
+				C0D54D792457227F00760637 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0D54D672457227F00760637 /* PBXTargetDependency */,
+			);
+			name = "Houngry Times";
+			productName = "Houngry Times";
+			productReference = C0D54D5A2457227D00760637 /* Houngry Times.app */;
+			productType = "com.apple.product-type.application.messages";
+		};
+		C0D54D632457227F00760637 /* Houngry Times MessagesExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0D54D762457227F00760637 /* Build configuration list for PBXNativeTarget "Houngry Times MessagesExtension" */;
+			buildPhases = (
+				C0D54D602457227F00760637 /* Sources */,
+				C0D54D612457227F00760637 /* Frameworks */,
+				C0D54D622457227F00760637 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Houngry Times MessagesExtension";
+			productName = "Houngry Times MessagesExtension";
+			productReference = C0D54D642457227F00760637 /* Houngry Times MessagesExtension.appex */;
+			productType = "com.apple.product-type.app-extension.messages";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C0D54D542457227D00760637 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Malovic, Milos";
+				TargetAttributes = {
+					C0D54D592457227D00760637 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					C0D54D632457227F00760637 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+				};
+			};
+			buildConfigurationList = C0D54D572457227D00760637 /* Build configuration list for PBXProject "Houngry Times" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C0D54D532457227D00760637;
+			productRefGroup = C0D54D5B2457227D00760637 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C0D54D592457227D00760637 /* Houngry Times */,
+				C0D54D632457227F00760637 /* Houngry Times MessagesExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C0D54D582457227D00760637 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0D54D5E2457227F00760637 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0D54D622457227F00760637 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0D54D722457227F00760637 /* Assets.xcassets in Resources */,
+				C0D54D702457227F00760637 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C0D54D602457227F00760637 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C076CE8824597B1400288294 /* Restaurant.swift in Sources */,
+				C076CE8A24598D2900288294 /* MapViewController.swift in Sources */,
+				C076CE802458246E00288294 /* InfoViewController.swift in Sources */,
+				C076CE8D2459D53300288294 /* StringExt.swift in Sources */,
+				C076CE7E24573E9700288294 /* MapPin.swift in Sources */,
+				C076CE862458D42200288294 /* ProposalViewController.swift in Sources */,
+				C076CE94245A088900288294 /* ContrtollerExt.swift in Sources */,
+				C0D54D6D2457227F00760637 /* MessagesViewController.swift in Sources */,
+				C076CE8F2459D55000288294 /* DateExt.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C0D54D672457227F00760637 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C0D54D632457227F00760637 /* Houngry Times MessagesExtension */;
+			targetProxy = C0D54D662457227F00760637 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C0D54D6E2457227F00760637 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0D54D6F2457227F00760637 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C0D54D742457227F00760637 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C0D54D752457227F00760637 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C0D54D772457227F00760637 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NAKVM6YWDQ;
+				INFOPLIST_FILE = "Houngry Times MessagesExtension/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "devmm11070.com.Houngry-Times.MessagesExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C0D54D782457227F00760637 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NAKVM6YWDQ;
+				INFOPLIST_FILE = "Houngry Times MessagesExtension/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "devmm11070.com.Houngry-Times.MessagesExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C0D54D7B2457227F00760637 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NAKVM6YWDQ;
+				INFOPLIST_FILE = "Houngry Times/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "devmm11070.com.Houngry-Times";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C0D54D7C2457227F00760637 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NAKVM6YWDQ;
+				INFOPLIST_FILE = "Houngry Times/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "devmm11070.com.Houngry-Times";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C0D54D572457227D00760637 /* Build configuration list for PBXProject "Houngry Times" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0D54D742457227F00760637 /* Debug */,
+				C0D54D752457227F00760637 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0D54D762457227F00760637 /* Build configuration list for PBXNativeTarget "Houngry Times MessagesExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0D54D772457227F00760637 /* Debug */,
+				C0D54D782457227F00760637 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0D54D7A2457227F00760637 /* Build configuration list for PBXNativeTarget "Houngry Times" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0D54D7B2457227F00760637 /* Debug */,
+				C0D54D7C2457227F00760637 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C0D54D542457227D00760637 /* Project object */;
+}
