@@ -15,6 +15,9 @@
 		C076CE8D2459D53300288294 /* StringExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = C076CE8C2459D53300288294 /* StringExt.swift */; };
 		C076CE8F2459D55000288294 /* DateExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = C076CE8E2459D55000288294 /* DateExt.swift */; };
 		C076CE94245A088900288294 /* ContrtollerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = C076CE93245A088900288294 /* ContrtollerExt.swift */; };
+		C0BE76EE245AD07A00CD37B0 /* ProposalBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BE76ED245AD07A00CD37B0 /* ProposalBtn.swift */; };
+		C0BE76F0245AD28000CD37B0 /* ConfirmationBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BE76EF245AD28000CD37B0 /* ConfirmationBtn.swift */; };
+		C0BE76F2245AD2E900CD37B0 /* DeclineBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BE76F1245AD2E900CD37B0 /* DeclineBtn.swift */; };
 		C0D54D5E2457227F00760637 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0D54D5D2457227F00760637 /* Assets.xcassets */; };
 		C0D54D652457227F00760637 /* Houngry Times MessagesExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C0D54D642457227F00760637 /* Houngry Times MessagesExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		C0D54D6A2457227F00760637 /* Messages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0D54D692457227F00760637 /* Messages.framework */; };
@@ -56,6 +59,9 @@
 		C076CE8C2459D53300288294 /* StringExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExt.swift; sourceTree = "<group>"; };
 		C076CE8E2459D55000288294 /* DateExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExt.swift; sourceTree = "<group>"; };
 		C076CE93245A088900288294 /* ContrtollerExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContrtollerExt.swift; sourceTree = "<group>"; };
+		C0BE76ED245AD07A00CD37B0 /* ProposalBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProposalBtn.swift; sourceTree = "<group>"; };
+		C0BE76EF245AD28000CD37B0 /* ConfirmationBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationBtn.swift; sourceTree = "<group>"; };
+		C0BE76F1245AD2E900CD37B0 /* DeclineBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeclineBtn.swift; sourceTree = "<group>"; };
 		C0D54D5A2457227D00760637 /* Houngry Times.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Houngry Times.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0D54D5D2457227F00760637 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C0D54D5F2457227F00760637 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -109,6 +115,16 @@
 			path = ViewController;
 			sourceTree = "<group>";
 		};
+		C0BE76EC245AD05D00CD37B0 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				C0BE76ED245AD07A00CD37B0 /* ProposalBtn.swift */,
+				C0BE76EF245AD28000CD37B0 /* ConfirmationBtn.swift */,
+				C0BE76F1245AD2E900CD37B0 /* DeclineBtn.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
 		C0D54D532457227D00760637 = {
 			isa = PBXGroup;
 			children = (
@@ -148,6 +164,7 @@
 		C0D54D6B2457227F00760637 /* Houngry Times MessagesExtension */ = {
 			isa = PBXGroup;
 			children = (
+				C0BE76EC245AD05D00CD37B0 /* UI */,
 				C076CE922459D88400288294 /* ViewController */,
 				C076CE912459D87700288294 /* Model */,
 				C076CE8B2459D52300288294 /* Extension */,
@@ -264,7 +281,10 @@
 				C076CE7E24573E9700288294 /* MapPin.swift in Sources */,
 				C076CE862458D42200288294 /* ProposalViewController.swift in Sources */,
 				C076CE94245A088900288294 /* ContrtollerExt.swift in Sources */,
+				C0BE76F2245AD2E900CD37B0 /* DeclineBtn.swift in Sources */,
+				C0BE76EE245AD07A00CD37B0 /* ProposalBtn.swift in Sources */,
 				C0D54D6D2457227F00760637 /* MessagesViewController.swift in Sources */,
+				C0BE76F0245AD28000CD37B0 /* ConfirmationBtn.swift in Sources */,
 				C076CE8F2459D55000288294 /* DateExt.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

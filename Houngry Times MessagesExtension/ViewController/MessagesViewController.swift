@@ -155,10 +155,10 @@ class MessagesViewController: MSMessagesAppViewController {
     }
     
     func createMessage(with restaurant: Restaurant) {
-       
+        
         // asign restaurant from info view controller so it have all properrties that needs for user to send proposal to reciepent
         self.restaurant = restaurant
-      
+        
         // 1: return the extension to compact mode, it will fire will become active with present func inside
         requestPresentationStyle(.compact)
         
@@ -221,6 +221,34 @@ class MessagesViewController: MSMessagesAppViewController {
         
         // set image that will be sent if user confirms proposal
         let image = UIImage(named: "confrimation.png")
+        layout.image = image
+        
+        message.layout = layout
+        
+        conversation.insert(message) { error in
+            if let error = error {
+                print("final error", error)
+            }
+        }
+    }
+    
+    func sendDeclineMessage() {
+        
+        self.restaurant = nil
+        
+        requestPresentationStyle(.compact)
+        
+        guard let conversation = activeConversation else { print("returned")
+            return
+        }
+        let session = conversation.selectedMessage?.session ?? MSSession()
+        let message = MSMessage(session: session)
+        
+        let layout = MSMessageTemplateLayout()
+        layout.caption = "Unavailable"
+        
+        // set image that will be sent if user confirms proposal
+        let image = UIImage(named: "unavailable.png")
         layout.image = image
         
         message.layout = layout

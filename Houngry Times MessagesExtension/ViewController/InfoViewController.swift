@@ -35,6 +35,7 @@ class InfoViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        datePicker.minimumDate = Date()
         datePicker?.addTarget(self, action: #selector(self.dateChanged), for: .valueChanged)
         
         resName.text = restaurant?.name
@@ -58,3 +59,7 @@ class InfoViewController: UIViewController {
         reservationDateLbl.text = DateFormatter.localizedString(from: date, dateStyle: .medium, timeStyle: .short)
     }
 }
+
+
+// <a href='https://pngtree.com/so/food'>food png from pngtree.com</a>
+
