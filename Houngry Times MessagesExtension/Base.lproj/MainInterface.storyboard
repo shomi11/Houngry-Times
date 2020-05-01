@@ -61,64 +61,74 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vnP-xR-Z4u" customClass="ProposalBtn" customModule="Houngry_Times_MessagesExtension" customModuleProvider="target">
-                                <rect key="frame" x="48" y="702" width="279" height="44"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="44" id="mT7-uM-g76"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
-                                <state key="normal" title="Send proposal"/>
-                                <connections>
-                                    <action selector="sendReservationBtn:" destination="Fod-ve-9bn" eventType="touchUpInside" id="EmJ-CG-lPv"/>
-                                </connections>
-                            </button>
-                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="15" translatesAutoresizingMaskIntoConstraints="NO" id="Amv-w3-xPc">
-                                <rect key="frame" x="0.0" y="470" width="375" height="216"/>
-                            </datePicker>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="AYc-Kq-cl3">
-                                <rect key="frame" x="16" y="92" width="343" height="106.33333333333331"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="48" translatesAutoresizingMaskIntoConstraints="NO" id="4QW-IN-Lvh">
+                                <rect key="frame" x="16" y="178.99999999999997" width="343" height="454.33333333333326"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R5o-u9-6yF">
-                                        <rect key="frame" x="0.0" y="0.0" width="71.666666666666671" height="33.666666666666664"/>
-                                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="address" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zej-Ck-R4J">
-                                        <rect key="frame" x="0.0" y="49.666666666666657" width="61.333333333333336" height="20.333333333333329"/>
-                                        <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="phone num" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zt7-Im-eju">
-                                        <rect key="frame" x="0.0" y="86" width="86.333333333333329" height="20.333333333333329"/>
-                                        <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="AYc-Kq-cl3">
+                                        <rect key="frame" x="16" y="0.0" width="311" height="106.33333333333333"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R5o-u9-6yF">
+                                                <rect key="frame" x="0.0" y="0.0" width="71.666666666666671" height="33.666666666666664"/>
+                                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="address" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zej-Ck-R4J">
+                                                <rect key="frame" x="0.0" y="49.666666666666657" width="61.333333333333336" height="20.333333333333329"/>
+                                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="phone num" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zt7-Im-eju">
+                                                <rect key="frame" x="0.0" y="86" width="86.333333333333329" height="20.333333333333329"/>
+                                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="6we-hy-lET">
+                                        <rect key="frame" x="11.666666666666657" y="154.33333333333331" width="320" height="300"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Choose your  date" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="870-uI-QlU">
+                                                <rect key="frame" x="80.999999999999986" y="0.0" width="157.66666666666663" height="24"/>
+                                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="15" translatesAutoresizingMaskIntoConstraints="NO" id="Amv-w3-xPc">
+                                                <rect key="frame" x="0.0" y="32" width="320" height="216"/>
+                                            </datePicker>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vnP-xR-Z4u" customClass="ProposalBtn" customModule="Houngry_Times_MessagesExtension" customModuleProvider="target">
+                                                <rect key="frame" x="32" y="256.00000000000006" width="256" height="44"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="44" id="mT7-uM-g76"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                                <state key="normal" title="Send proposal"/>
+                                                <connections>
+                                                    <action selector="sendReservationBtn:" destination="Fod-ve-9bn" eventType="touchUpInside" id="EmJ-CG-lPv"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="vnP-xR-Z4u" firstAttribute="leading" secondItem="6we-hy-lET" secondAttribute="leading" constant="32" id="4YI-z0-Lqw"/>
+                                            <constraint firstAttribute="trailing" secondItem="vnP-xR-Z4u" secondAttribute="trailing" constant="32" id="yqZ-LI-S6T"/>
+                                        </constraints>
+                                    </stackView>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstItem="AYc-Kq-cl3" firstAttribute="leading" secondItem="4QW-IN-Lvh" secondAttribute="leading" constant="16" id="bRw-Ta-wAp"/>
+                                    <constraint firstAttribute="trailing" secondItem="AYc-Kq-cl3" secondAttribute="trailing" constant="16" id="mgm-HY-Wed"/>
+                                </constraints>
                             </stackView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Choose your  date" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="870-uI-QlU">
-                                <rect key="frame" x="32" y="433.66666666666669" width="311" height="20.333333333333314"/>
-                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="Amv-w3-xPc" firstAttribute="leading" secondItem="cx6-Tz-lL7" secondAttribute="leading" id="7Ek-oL-mFO"/>
-                            <constraint firstItem="vnP-xR-Z4u" firstAttribute="bottom" secondItem="cx6-Tz-lL7" secondAttribute="bottom" constant="-32" id="Cg9-7d-cg5"/>
-                            <constraint firstItem="vnP-xR-Z4u" firstAttribute="top" secondItem="Amv-w3-xPc" secondAttribute="bottom" constant="16" id="Cj8-Rf-Q7r"/>
-                            <constraint firstItem="AYc-Kq-cl3" firstAttribute="leading" secondItem="cx6-Tz-lL7" secondAttribute="leading" constant="16" id="HOS-Xx-3dK"/>
-                            <constraint firstItem="cx6-Tz-lL7" firstAttribute="trailing" secondItem="AYc-Kq-cl3" secondAttribute="trailing" constant="16" id="KUO-2D-b8G"/>
-                            <constraint firstItem="AYc-Kq-cl3" firstAttribute="top" secondItem="cx6-Tz-lL7" secondAttribute="top" constant="48" id="QWP-ge-c90"/>
-                            <constraint firstItem="870-uI-QlU" firstAttribute="leading" secondItem="cx6-Tz-lL7" secondAttribute="leading" constant="32" id="Rh2-kq-vQe"/>
-                            <constraint firstItem="Amv-w3-xPc" firstAttribute="trailing" secondItem="cx6-Tz-lL7" secondAttribute="trailing" id="cUe-S0-9bY"/>
-                            <constraint firstItem="Amv-w3-xPc" firstAttribute="top" secondItem="870-uI-QlU" secondAttribute="bottom" constant="16" id="hLu-Fy-UD5"/>
-                            <constraint firstItem="vnP-xR-Z4u" firstAttribute="leading" secondItem="cx6-Tz-lL7" secondAttribute="leading" constant="48" id="ilO-Sl-a1i"/>
-                            <constraint firstItem="cx6-Tz-lL7" firstAttribute="trailing" secondItem="870-uI-QlU" secondAttribute="trailing" constant="32" id="u4r-DR-TMK"/>
-                            <constraint firstItem="cx6-Tz-lL7" firstAttribute="trailing" secondItem="vnP-xR-Z4u" secondAttribute="trailing" constant="48" id="zRc-9A-dGB"/>
+                            <constraint firstItem="4QW-IN-Lvh" firstAttribute="centerX" secondItem="oCu-AF-d79" secondAttribute="centerX" id="7rv-Ls-LTc"/>
+                            <constraint firstItem="4QW-IN-Lvh" firstAttribute="centerY" secondItem="oCu-AF-d79" secondAttribute="centerY" id="KPw-s2-7yG"/>
+                            <constraint firstItem="cx6-Tz-lL7" firstAttribute="trailing" secondItem="4QW-IN-Lvh" secondAttribute="trailing" constant="16" id="dYU-P7-Cug"/>
+                            <constraint firstItem="4QW-IN-Lvh" firstAttribute="leading" secondItem="oCu-AF-d79" secondAttribute="leading" constant="16" id="kyA-03-Ckv"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="cx6-Tz-lL7"/>
                     </view>
