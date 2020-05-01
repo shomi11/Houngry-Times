@@ -24,10 +24,11 @@ class DeclineBtn: UIButton {
     required init?(coder: NSCoder) {
         super.init(coder: coder)
         self.backgroundColor = .black
-        self.tintColor = .systemBackground
         self.layer.cornerRadius = self.frame.height / 2 - 10
         self.layer.borderWidth = 0.5
-        self.layer.borderColor = UIColor.systemBackground.cgColor
+        self.setTitleColor(.label, for: .normal)
+        self.layer.borderColor = UIColor.label.cgColor
+        self.layer.borderColor = UIColor.white.cgColor
         self.layer.shadowRadius = 5
         self.layer.shadowColor = UIColor.systemBackground.cgColor
         self.layer.shadowOpacity = 0.5
