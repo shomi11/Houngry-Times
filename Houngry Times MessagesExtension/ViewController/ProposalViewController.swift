@@ -21,7 +21,7 @@ class ProposalViewController: UIViewController {
     // MARK: Properties
 
     var restaurant: Restaurant?
-    var images = ["food1", "food2"]
+    var images = ["food1", "food2", "food3", "food4"]
     weak var delegate: MessagesViewController!
     
     // MARK: Lifecycle

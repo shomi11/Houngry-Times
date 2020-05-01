@@ -99,11 +99,13 @@ class MessagesViewController: MSMessagesAppViewController {
         } else {
             
             // if set for chossing date for launch, means user did choose restaurant and restauant have a name, phone number and address then present info so user can choose a date
-            if restaurant!.isSet {
+            guard let res = restaurant else { requestPresentationStyle(.compact)
+                return }
+            if res.isSet {
                 controller = instantiateInfoViewController(with: restaurant!)
                 
                 // means that user did select date, and restaurant now have all properties filled, now is ready to create a message proposal for food place, receipent will see this view controller
-            } else if restaurant!.isFullSet {
+            } else if res.isFullSet {
                 controller = instantiateProposalViewController(with: restaurant!)
                 
                 // in every other case instantiate map again
