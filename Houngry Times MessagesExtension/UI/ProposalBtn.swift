@@ -25,6 +25,7 @@ class ProposalBtn: UIButton {
     required init?(coder: NSCoder) {
         super.init(coder: coder)
         self.tintColor = .systemBackground
+        self.titleLabel?.numberOfLines = 0
         self.backgroundColor = .systemIndigo
         self.layer.cornerRadius = self.frame.height / 2 - 10
         self.layer.borderWidth = 0.5

@@ -11,12 +11,12 @@ import UIKit
 
 class DeclineBtn: UIButton {
     
+    let shadowOffset = CGSize(width: 2, height: 5)
+    
     override func awakeFromNib() {
         super.awakeFromNib()
     }
-    
-    let shadowOffset = CGSize(width: 2, height: 5)
-    
+        
     override func layoutSubviews() {
         super.layoutSubviews()
     }
